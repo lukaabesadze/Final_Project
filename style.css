@@ -1,0 +1,84 @@
+.container{
+    max-width: 1240px;
+    width: 100%;
+    margin: 0 auto;
+
+}
+.info-wrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    justify-content: space-between;
+}
+.myimage{
+ width: 100px;
+ flex-shrink: 0;
+}
+nav{
+    display: inline-block;
+    }
+.info-wrapper h1{
+color: #222;
+font-size: 27.65px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+display: inline-block;
+vertical-align: middle;
+margin-left: 5px;
+}
+.info-wrapper li{
+    display: inline-block;  
+}
+.info-wrapper a{
+ color: #2935A7;
+font-feature-settings: 'clig' off, 'liga' off;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: 16px; /* 80% */
+letter-spacing: 0.4px;
+}
+.navigation{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+    margin-left: 50px;
+}
+/***************************************/
+textarea{
+position: relative;
+display: flex;
+width: 168px;
+height: 40px;
+padding: 10px;
+justify-content: space-between;
+align-items: center;
+flex-shrink: 0;
+border-radius: 8px;
+border: 1px solid #A7A7A7;
+}
+.burgerbar{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
