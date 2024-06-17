@@ -31,5 +31,12 @@
             height: 100%;
         }
        }
+      
+       }
     }
+    @media(max-width:1264px){
+        .photos-1{
+            display: flex;
+            
+        }
 }
