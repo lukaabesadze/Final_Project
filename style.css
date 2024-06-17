@@ -17,8 +17,9 @@
     justify-content: space-between;
 }
 .myimage{
- width: 100px;
+ width: 90px;
  flex-shrink: 0;
+ cursor: pointer;
 }
 
 nav{
@@ -78,8 +79,12 @@ flex-shrink: 0;
 background: url(<path-to-image>) lightgray 50% / cover no-repeat;
 border-radius: 15px;
 box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.6); 
+cursor: pointer;
 }
-
+.tbilisi:hover{
+    opacity: 0.8;
+    transition: 0.5s;
+}
 .myh2{
 color: #000;
 font-size: 24px;
@@ -125,8 +130,13 @@ border: 8px solid #fffcfc;
 background: url(<path-to-image>) lightgray 50% / cover no-repeat;
 border-radius: 10px;
 box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.6); 
+cursor: pointer;
+object-fit: cover;
 }
-
+.mainimage:hover{
+    opacity: 0.8;
+    transition: 0.5s;
+}
 .section-1{
     display: flex;
     text-align: center;
@@ -141,13 +151,15 @@ font-style: normal;
 font-weight: 800;
 line-height: 40px; /* 100% */
 margin-top: 100px;
+cursor: pointer;
 }
 
 .photos-1{
     display: flex;
     justify-content: space-between;
-    margin-top: 32px;
+    margin-top: 32px;  
 }
+
 .nature{
 width: 400px;
 height: 470px;
@@ -155,8 +167,13 @@ flex-shrink: 0;
 background: url(<path-to-image>) lightgray 50% / cover no-repeat;
 border-radius: 5px;
 box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.6); 
+cursor: pointer;
+object-fit: cover;
 }
-
+.nature:hover{
+    opacity: 0.8;
+    transition: 0.5s;
+}
 
 
 
