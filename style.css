@@ -4,6 +4,9 @@
     margin: 0 auto;
 
 }
+html{
+    scroll-behavior: smooth;
+}
 .info-wrapper{
     display: flex;
     flex-direction: row;
@@ -80,6 +83,7 @@ background: url(<path-to-image>) lightgray 50% / cover no-repeat;
 border-radius: 15px;
 box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.6); 
 cursor: pointer;
+object-fit:cover;
 }
 .tbilisi:hover{
     opacity: 0.8;
@@ -161,8 +165,8 @@ cursor: pointer;
 }
 
 .nature{
-width: 400px;
-height: 470px;
+width: 370px;
+height: 440px;
 flex-shrink: 0;
 background: url(<path-to-image>) lightgray 50% / cover no-repeat;
 border-radius: 5px;
@@ -170,11 +174,24 @@ box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.6);
 cursor: pointer;
 object-fit: cover;
 }
+.nature1{
+    width: 370px;
+    height: 440px;
+    flex-shrink: 0;
+    background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+    border-radius: 5px;
+    box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.6); 
+    cursor: pointer;
+    object-fit: cover; 
+}
 .nature:hover{
     opacity: 0.8;
     transition: 0.5s;
 }
-
+.nature1:hover{
+    opacity: 0.8;
+    transition: 0.5s;
+}
 
 
 
