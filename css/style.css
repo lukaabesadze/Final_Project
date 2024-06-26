@@ -192,7 +192,184 @@ object-fit: cover;
     opacity: 0.8;
     transition: 0.5s;
 }
+    /************************************************************** footer start*/
+
+.footer{
+    margin-top: 185px;  
+    width: 100%;
+    height: 100%;
+    background: #A9AEDC; 
+    display: flex;
+    
+}
+.footer h2{
+color: #222;
+font-size: 42px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
 
 
+}
+.sociallogos{
+    padding: 50px 20px;
+ 
+}
+.sociallogos img{
+width: 45px;
+height: 45px;
+flex-shrink: 0;
+padding-top: 5px;
 
 
+}
+
+   .list-2 li{
+    color: #222;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding-left: 75px;
+    
+   } 
+   .list-2{
+display: flex;
+justify-content: end;
+margin-top: 80px;
+
+   }
+   /*------------------------------------------------------------* end of the page*/
+   .georgia{
+width: 640px;
+height: 440px;
+flex-shrink: 0;
+background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.6); 
+cursor: pointer;
+margin-top: 70px;
+   }
+.sec-1{
+   display: flex;
+}
+
+.geo-h2{
+color: #222;
+font-family: "Rockwell Extra Bold";
+font-size: 42px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+display: block;
+display: flex;
+justify-content: center;
+margin-top: 220px;
+margin-left: 50px;
+
+}
+.geo-p1{
+    color: #222;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Rockwell;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px; /* 66.667% */
+    letter-spacing: 0.48px;
+    display: block;
+    margin-left: 50px;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    }
+   
+.geo-p2{
+color: #222;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Rockwell;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 16px; /* 66.667% */
+letter-spacing: 0.48px;
+display: block;
+margin-left: 50px;
+display: flex;
+justify-content: center;
+margin-top: 10px;
+}
+/*************************************************************************************/
+.mainsection-1{
+    display: flex;
+    justify-content: space-between;
+}
+.church{
+color: #222;
+font-size: 48px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+margin-top: 72px;
+margin-bottom: 56px;
+}
+.sec_1 img{
+    width: 295px;
+    height: 295px;
+    flex-shrink: 0;
+    border: 1px solid #A7A7A7;
+    object-fit: cover;
+    box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.6); 
+    padding: 5px;
+    cursor: pointer;
+}
+.sec_1 p{
+    width: 250px;
+    color: #000;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px; 
+    letter-spacing: 0.48px;
+    display: flex;
+   text-align: center;
+   padding-top: 5px;
+}
+.mydiv_1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;   
+}
+.mydiv_2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around; 
+}
+.city-h2{
+    color: #222;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-top: 72px;
+    margin-bottom: 56px;
+    }
+.mybutton h2{
+color: #FFF;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 0.28px;
+}
+.mybutton{
+display: inline-flex;
+padding: 8px 12px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 10px;
+background: #2935A7;
+
+}
