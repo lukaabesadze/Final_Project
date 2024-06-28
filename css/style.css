@@ -442,6 +442,7 @@ margin-top: 60px;
     background: url(<path-to-image>) lightgray 50% / cover no-repeat;
     object-fit: cover;
     cursor: pointer;
+    border-radius: 5px;
 }
 .first-div h2{
 color: #222;
@@ -470,6 +471,8 @@ width: 610px;
     background: url(<path-to-image>) lightgray 50% / cover no-repeat;
     object-fit: cover;
     cursor: pointer;
+    border-radius: 5px;
+    flex-shrink: 0;
 }
 .second-div h2{
 color: #222;
