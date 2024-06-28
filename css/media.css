@@ -60,6 +60,7 @@
         }
         @media(max-width: 985px){
             .list-2{
+                margin-top: 0px;
                 display: flex;
                 display: block;
                 text-align: center;
@@ -68,59 +69,40 @@
         
 }
 @media(max-width: 1288px){
-    .info{
-        position: absolute;  
-        margin-right: 40px;
-        
-    }
+ .textbox2{
+    display:inline-block ;
+    
+ }
+ .textbox{
+    display: none;
+ }
     .geo-h2{
         font-size: 32px;
     }
-    .geo-p1 {
-        color:aliceblue;
-        
-    }
-    .geo-p2{
-        color: aliceblue;
-        
-    }
-    .sec-1{
-        display: flex;
-        justify-content: center;
-    }
+   
     .georgia{
-        width: 80%;
-        
+        width:100%;
+        object-fit: cover;
     }
 }
-@media(max-width:600px){
-    .geo-h2{
+@media(max-width:614px){
+    .geo-h2-2{
         font-size: 20px;
-        display: flex;
-        justify-content: center;
-        margin-top: 250px;
-
+        
     }
     .geo-p1{
         font-size: 16px;
-        display: flex;
-        justify-content: center;
+       
+      
     }
-    .geo-p2{
-        font-size: 16px;
-        display: flex;
-        justify-content: center;
-    }
+
 
 }
 
-
-
-@media(max-width:1250px){
+@media(max-width:1280px){
     .mainsection-1{
-        flex-direction: column;
         display: flex;
-        justify-content: center;
+        justify-content: space-around;
         
     }
 
@@ -131,7 +113,7 @@
         
     }
 }
-@media(max-width:1250px){
+@media(max-width:1280px){
     .mainsection-1 img{
         margin-top: 20px;
         
@@ -143,4 +125,34 @@
         width: 210px;
         font-size: 16px;
     }
+}
+@media(max-width:1280px){
+    .mydiv_1{
+        flex-direction: column;
+       
+    }
+    .mydiv_2{
+        flex-direction: column;
+       
+    }
+    .sec_1{
+        display: flex;
+        justify-content: space-between;
+    }
+
+}
+@media(max-width:1280px){
+    .lastsec {
+        width: 670px;
+        flex-direction: column;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        
+    }
+    .lastsec p {
+        display: flex;
+        text-align: center;
+    }
+  
 }

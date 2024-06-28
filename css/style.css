@@ -200,6 +200,10 @@ object-fit: cover;
     height: 100%;
     background: #A9AEDC; 
     display: flex;
+    justify-content: space-around;
+    padding: 20px;
+
+   
     
 }
 .footer h2{
@@ -212,14 +216,15 @@ line-height: normal;
 
 }
 .sociallogos{
-    padding: 50px 20px;
- 
+    display:inline;
 }
 .sociallogos img{
 width: 45px;
 height: 45px;
 flex-shrink: 0;
 padding-top: 5px;
+margin-top: 10px;
+cursor: pointer;
 
 
 }
@@ -236,7 +241,7 @@ padding-top: 5px;
    .list-2{
 display: flex;
 justify-content: end;
-margin-top: 80px;
+margin-top: 50px;
 
    }
    /*------------------------------------------------------------* end of the page*/
@@ -255,57 +260,68 @@ margin-top: 70px;
 
 .geo-h2{
 color: #222;
-font-family: "Rockwell Extra Bold";
 font-size: 42px;
 font-style: normal;
 font-weight: 800;
 line-height: normal;
-display: block;
 display: flex;
 justify-content: center;
-margin-top: 220px;
+margin-top: 200px;
 margin-left: 50px;
 
 }
+.geo-h2-2{
+    color: #222;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    display: block;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 50px;
+    
+    }
+.section_3{
+    display: flex;
+}
+.textbox2{
+    display: none;
+}
 .geo-p1{
     color: #222;
-    font-feature-settings: 'clig' off, 'liga' off;
-    font-family: Rockwell;
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
     line-height: 16px; /* 66.667% */
     letter-spacing: 0.48px;
-    display: block;
-    margin-left: 50px;
     display: flex;
     justify-content: center;
-    margin-top: 30px;
+    text-align: center;
+    padding-top: 10px;
+    
+    
+    
     }
    
-.geo-p2{
-color: #222;
-font-feature-settings: 'clig' off, 'liga' off;
-font-family: Rockwell;
-font-size: 24px;
-font-style: normal;
-font-weight: 400;
-line-height: 16px; /* 66.667% */
-letter-spacing: 0.48px;
-display: block;
-margin-left: 50px;
-display: flex;
-justify-content: center;
-margin-top: 10px;
-}
+
 /*************************************************************************************/
 .mainsection-1{
     display: flex;
     justify-content: space-between;
 }
-.church{
+.mainsection-2{
+    display: flex;
+    justify-content: space-between;
+}
+.mainsection-3{
+    display: flex;
+    justify-content: space-between;
+}
+.name{
 color: #222;
-font-size: 48px;
+font-size: 40px;
 font-style: normal;
 font-weight: 800;
 line-height: normal;
@@ -321,9 +337,22 @@ margin-bottom: 56px;
     box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.6); 
     padding: 5px;
     cursor: pointer;
+    margin-left: 15px;
 }
 .sec_1 p{
-    width: 250px;
+    width: 280px;
+    color: #000;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400; 
+    letter-spacing: 0.48px;
+    display: flex;
+    text-align: center;
+    margin-top: 5px;
+    
+}
+.mainp{
+    width: 280px;
     color: #000;
     font-size: 22px;
     font-style: normal;
@@ -331,8 +360,11 @@ margin-bottom: 56px;
     line-height: 16px; 
     letter-spacing: 0.48px;
     display: flex;
-   text-align: center;
-   padding-top: 5px;
+    text-align: center;
+    margin-top: 10px;
+}
+.sec_1{
+    display: flex; 
 }
 .mydiv_1{
     width: 100%;
@@ -371,5 +403,88 @@ align-items: center;
 gap: 10px;
 border-radius: 10px;
 background: #2935A7;
+}
 
+.mybutton a{
+color: #FFF;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 16px; /* 100% */
+letter-spacing: 0.32px;
+}
+
+.mybutton{
+display: inline-flex;
+padding: 15px 25px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 12px;
+background: #2935A7;
+margin-top: 60px;
+
+}
+
+.mybutton-main{
+    display: flex;
+    justify-content: center;
+}
+.lastsec{
+    display: flex;
+    justify-content: space-between;
+}
+.first-div img{
+    width: 610px;
+    height: 400px;
+    flex-shrink: 0;
+    border: 1px solid #BDBDBD;
+    background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+    object-fit: cover;
+    cursor: pointer;
+}
+.first-div h2{
+color: #222;
+font-size: 20px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+.first-div p{
+color: #222;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 140% */
+width: 610px;
+
+}
+
+.second-div img{
+    width: 610px;
+    height: 400px;
+    flex-shrink: 0;
+    border: 1px solid #BDBDBD;
+    background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+    object-fit: cover;
+    cursor: pointer;
+}
+.second-div h2{
+color: #222;
+font-size: 20px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+.second-div p{
+color: #222;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 140% */
+width: 610px;
 }
