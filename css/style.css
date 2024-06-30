@@ -201,7 +201,7 @@ object-fit: cover;
     background: #A9AEDC; 
     display: flex;
     justify-content: space-around;
-    padding: 20px;
+    padding: 30px;
 
    
     
@@ -474,6 +474,7 @@ width: 610px;
     border-radius: 5px;
     flex-shrink: 0;
 }
+
 .second-div h2{
 color: #222;
 font-size: 20px;
@@ -490,4 +491,179 @@ font-style: normal;
 font-weight: 400;
 line-height: 28px; /* 140% */
 width: 610px;
+}
+.geonakrebi{
+    display: flex;
+}
+.information-1{
+    margin-left: 40px;
+}
+
+.geonakrebi img{
+width: 600px;
+height: 635px;
+flex-shrink: 0;
+border: 1px solid #A7A7A7;
+background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+object-fit:cover;
+}
+.information-1 h2{
+    width: 300px;
+color: #222;
+font-size: 24px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+
+
+.information-1 p{
+    width: 200px;
+color: #222;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-top: 10px;
+
+}
+.nonediv{
+    display: none;
+    margin-left: 30px;
+}
+
+.nonediv h2{
+    width: 300px;
+color: #222;
+font-size: 24px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+
+.nonediv p{
+    width: 200px;
+    color: #222;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 10px;
+}
+
+
+.mybutton-main-3{
+    display: inline-flex;
+padding:10px  10px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 12px;
+background: #31728E;
+margin-top: 20px;
+}
+.mybutton-main-3 h2{
+    width: 120px;
+    color: #FFF;
+padding: 10px ;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 16px; /* 100% */
+letter-spacing: 0.32px;
+display: flex;
+justify-content: center;
+}
+
+
+
+
+.mybutton-main-2{
+    display: inline-flex;
+padding:10px  10px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 12px;
+background: #31728E;
+margin-top: 30px;
+}
+.mybutton-main-2 h2{
+    width: 120px;
+    color: #FFF;
+padding: 10px ;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 16px; /* 100% */
+letter-spacing: 0.32px;
+display: flex;
+justify-content: center;
+}
+.match img{
+width: 190px;
+height: 208px;
+flex-shrink: 0;
+border: 5px solid #eee8e8;
+background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+cursor: pointer;
+object-fit: cover;
+
+
+}
+
+.information-2{
+    display: none;
+}
+
+.match{
+    display: flex;
+   margin-top: 35px;
+    gap: 5px;
+    vertical-align: top;
+}
+
+.mypharagraph p{
+   color: #000;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+display: flex;
+margin-top: 30px;
+margin-bottom: 20px;
+}
+.thelast-sec img{
+width: 295px;
+height: 295px;
+flex-shrink: 0;
+border: 1px solid #A7A7A7;
+object-fit: cover;
+cursor: pointer;
+box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.6); 
+border-radius: 10px;
+
+}
+
+.thelast-sec p{
+width: 295px;
+display: flex;
+text-align: center;
+color: #000;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+letter-spacing: 0.48px;
+}
+.thelast-sec{
+    display: flex;
+    justify-content: space-between;
+}
+.maindiv{
+    display: flex;
+    gap: 20px;
+}
+.maindiv-2{
+    display: flex;
+    gap: 20px;
 }

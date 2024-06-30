@@ -161,3 +161,59 @@
     }
 
 }
+@media(max-width:1270px){
+    .information-1 h2 ,.mymainp,.mybutton-main-2,.mybutton{
+    display: none;
+    }
+    .nonediv{
+        display: block;
+    }
+ .match{
+    flex-direction: column;
+    margin-top: 0px;
+    height: 736px;
+    margin-left: 0px;
+ }
+
+}
+@media(max-width:860px){
+    .geonakrebi .geoimage{
+        width: 75%;
+    }
+    .match img{
+        width: 100%;   
+       
+    }
+    .information-1{
+        margin-left: 0px;
+        
+    }
+}
+@media(max-width:1270px){
+    .thelast-sec{
+        flex-direction: column;
+    }
+    .maindiv{
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .maindiv-2{
+        display: flex;
+        justify-content: center;
+    }
+   .mypharagraph p{
+    margin-left: 25px;
+   }
+   
+}
+
+@media(max-width:610px){
+    .thelast-sec img {
+      width: 100%;
+    }
+    .thelast-sec p{
+        width: 60px;
+        width: 100%;
+       }
+}
